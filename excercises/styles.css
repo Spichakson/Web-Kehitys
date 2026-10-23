@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(156, 183, 94);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    border: 5px, solid, grey;
+    border-radius: 50%
+}
+
+td {
+    text-align: center;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+
+
+a:hover {
+    color: #12da34
+}
+
+ul {
+    list-style-type: upper-roman;
+}
