@@ -44,7 +44,5 @@ let textkpl = document.querySelector("#result");
 textkpl.textContent = `Hinta: ${total_price}`
 
 
-
-
 }
 )

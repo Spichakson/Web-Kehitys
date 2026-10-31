@@ -1,6 +1,10 @@
 body {
     margin: 0px;
     font-family: 'MedievalSharp';
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column
 }
 
 
@@ -53,10 +57,11 @@ body {
 .header-right a {
     display: flex;
     text-decoration: 0;
-    width: 70px;
+    width: 100px;
     justify-content: center;
     color: rgb(144, 107, 49);
     font-size: 20px;
+    transition-duration: 0.4s
     
     
 }
@@ -69,7 +74,7 @@ body {
     flex-direction: column;
     gap: 20px;
     background-color: rgb(144, 107, 49);
-    height: 800px;
+    height: auto;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -90,9 +95,9 @@ body {
     margin-top: 100px;
 }   
 
-.city_picture {
-    height: 80%;
-    height: 63%;
+.main_picture {
+    max-width: 50%;
+    height: auto
 }
 
 .products_board {
@@ -100,6 +105,7 @@ body {
     gap: 70px;
     justify-content: center;
     align-items: flex-start;
+    flex: 1;
     
     
     
@@ -142,8 +148,9 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: rgb(144, 107, 49);
-    height: 1200px;
-    width: 100%;
+    height: auto;
+    width: auto;
+    
 
 
 }
@@ -175,9 +182,11 @@ body {
 
 .contact_page {
     display: flex;
+    flex: 1;
     background-color: rgb(144, 107, 49);
-    height: 600px;
-    width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 1100px;
     
 }
 
@@ -190,6 +199,14 @@ body {
 
 .info_zone p{
     font-size: 20px;
+}
+
+.googleMap {
+    margin-top: 100px;
+    margin-left: 400px;
+    border: solid, 3px, rgb(14, 48, 4);
+    height: 100%
+    
 }
 
 
