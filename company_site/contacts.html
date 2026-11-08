@@ -1,41 +1,47 @@
 <!doctype html>
-<html>
-  <header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <title>Contacts</title>
     <link
       href="https://fonts.googleapis.com/css?family=MedievalSharp"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </header>
-    <body>
-      <div class="header">
-        <div class="logo">
-          <p>Heritage</p>
-        </div>
-        <div class="header-right">
-          <a href="index.html">Home</a>
-          <a href="products.html">Products</a>
-          <a href="contacts.html">Contacts</a>
-        </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <p>Heritage</p>
       </div>
-      <div class="contact_page">
-        <div class="info_zone">
-          <h1>Contact us</h1>
-          <p>Visit us at:<br />
-            The Heritage shop<br />
-            Karaportti 2<br />
-            02340 ESPOO<br />
-            Finland<br />
-            Email: Artem.Spichak@metropolia.fi<br />
-            Phone: +358 (0)466666666
-          </p>
-        </div>
-        <div class="googleMap">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7925.542513387374!2d24.751497692443728!3d60.22399599840254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468df797cfe43cbb%3A0xb99a2c26d4df39ff!2sMetropolia%20Ammattikorkeakoulu%20-%20Karamalmin%20kampus!5e0!3m2!1sfi!2sfi!4v1793353626789!5m2!1sfi!2sfi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        </div>
+      <div class="header-right">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contacts.html">Contacts</a>
       </div>
-    </body>
-  
+    </div>
+    <div class="contact_page">
+      <div class="info_zone">
+        <h1>Contact us</h1>
+        <p>
+          Visit us at:<br />
+          The Heritage shop<br />
+          Karaportti 2<br />
+          02340 ESPOO<br />
+          Finland<br />
+          Email:
+          <span style="font-weight: bold">Artem.Spichak@metropolia.fi</span
+          ><br />
+          Phone: <span style="font-weight: bold">+358 (0)466666666</span>
+        </p>
+      </div>
+      <img
+        class="googleMap"
+        src="company_map.jpg"
+        alt="location"
+        fetchpriority="high"
+      />
+    </div>
+  </body>
 </html>
