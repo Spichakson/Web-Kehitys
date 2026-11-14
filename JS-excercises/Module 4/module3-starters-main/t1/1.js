@@ -2,14 +2,6 @@
 
 const target_id = document.querySelector("#target")
 
-const first = document.createElement("li")
-first.textContent = "First item"
-target_id.append(first)
+target_id.innerHTML = "<li>First item</li> <li>Second item</li> <li>Third item</li>"
 
-const second = document.createElement("li")
-second.textContent = "Second item"
-target_id.append(second)
 
-const third = document.createElement("li")
-third.textContent = "Third item"
-target_id.append(third)
