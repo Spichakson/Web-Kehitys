@@ -33,3 +33,18 @@ Link: https://users.metropolia.fi/~artemsp/js-excerices/Module%203/
 - Task 10: 8p
 
 **Total: 27p**
+
+### JS module 3
+
+Link: https://users.metropolia.fi/~artemsp/js-excerices/Module4/
+
+- Task 1: 2p
+- Task 2: 2p
+- Task 3: 2p
+- Task 4: 2p
+- Task 5: 5p
+- Task 6: 1p
+- Task 7: 2p
+- Task 8: 4p
+
+**Total: 20p**
