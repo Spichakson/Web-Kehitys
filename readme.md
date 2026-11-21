@@ -48,3 +48,10 @@ Link: https://users.metropolia.fi/~artemsp/js-excerices/Module4/
 - Task 8: 4p
 
 **Total: 20p**
+
+### Python Flask
+
+- Task 1: 4p
+- Task 2: 10p
+
+**Total: 14p**
