@@ -1,0 +1,24 @@
+{ 
+"hello" : "hei",
+"thank you" : "kiitos",
+"programm" : "ohjelma",
+"coffee" : "kahvi",
+"food" : "ruoka",
+"water" : "vesi",
+"laptop" : "kannettavatietokone",
+"mouse" : "hiiri",
+"book" : "kirja",
+"friend" : "ystävä",
+"university" : "korkeakoulu",
+"sun" : "aurinko",
+"earth" : "maa",
+"moon" : "kuu",
+"time" : "aika",
+"student" : "opiskelija",
+"teacher" : "opettaja",
+"table" : "pöytä",
+"break" : "tauko",
+"monitor" : "näyttö",
+"keyboard" : "näppäimistö"
+
+}
